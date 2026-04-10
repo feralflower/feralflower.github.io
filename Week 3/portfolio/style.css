@@ -1,0 +1,97 @@
+/*
+    set our defaults and constraints. ROOT selector
+*/
+.container {
+    background-color: #dcd6f7ff;
+    /* slightly see-through */
+    border-radius: 25px;
+    padding: 40px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+    border-color:#a6b1e1ff;
+
+}
+
+* {
+    --periwinkle: #dcd6f7ff;
+    --periwinkle-2: #a6b1e1ff;
+    --thistle: #e0cdd7ff;
+    --rosy-taupe: #b88e99ff;
+    --vintage-grape: #4e4c67ff; 
+    color: var(--vintage-grape);
+}
+
+
+/* selecting just the body*/
+
+body {
+   
+    background-color: #dcd6f7ff;
+    background-image: url('./assets/css-pattern-by-magicpattern.png');
+    background-size: cover;
+    padding-left: 220px;
+    padding-right: 220px;
+    padding-top: 90px;
+    padding-bottom: 60px;
+}
+.title {
+    text-align: center;
+    font-family: "Big Shoulders", sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+
+}
+
+p {
+    font-family: 'Rosario';
+}
+h1 {
+    font-family: "Big Shoulders", sans-serif;
+    font-weight: 700;
+    font-size: 25px;
+    margin-top: 5px;
+}
+h2 {
+    font-family: "Big Shoulders", sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+}
+header {
+    text-align: center;
+    font-family: "Bungee", sans-serif;
+    font-size: 60px;
+    text-shadow: 0 3px 4px #985f6fff;
+}
+
+
+
+.cards {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
+button {
+    background-color: rgba(224, 205, 215, .6);
+    border: 2px solid #b88e99ff; 
+    border-radius: 10px; 
+    display: inline-block;
+    width: 350px;    
+    padding: 10px 0; 
+    text-align: center;
+}
+
+li {
+    margin-top: 5px;
+}
+img {
+    align-items: center;
+    width: 250px;
+    height: 250px;
+    object-fit: cover;
+    transition: transform 0.4s ease;
+}
+img:hover {
+    transform: scale(1.2); /* zoom on hover */
+}
+h3 {
+    font-family: 'Rosario';
+}
