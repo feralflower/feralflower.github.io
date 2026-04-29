@@ -1,0 +1,49 @@
+body {
+  font-family: "Fontdiner Swanky", serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;  
+  align-items: center;     
+  min-height: 700px;      
+  text-align: center;
+  background: #fcb5e0;
+}
+
+.container{
+    height: 400px;
+    width: 500px;
+    background-color: #fcf0f6;
+    border-radius: 25px;
+    padding: 40px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+
+}
+button {
+  margin: 5px;
+  padding: 10px;
+  border-radius: 30px;
+  cursor: pointer;
+  background-color: #fed6ff;
+  border-color: #fcb5e0;
+  font-family: "DynaPuff", system-ui;
+}
+.button:hover{
+    background-color: plum;
+}
+.moodMessage {
+  font-size: 18px;
+  margin: 10px;
+}
+
+.happy {
+
+  background-color: rgb(255, 242, 125);
+}
+
+.meh {
+  background-color: rgb(145, 255, 165);
+}
+
+.upset {
+  background-color: rgb(152, 176, 255);
+}
